@@ -1,0 +1,225 @@
+#root {
+  margin: 0 auto;
+  
+}
+body{
+  margin: 0rem;
+  background-color: #89c2d9;
+}
+/*Home*/
+
+.homepage{
+ margin-top: px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+}
+.intro{
+  margin-left: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  line-height: 1px;
+  color: white;
+}
+
+.lottie{
+  width: 650px;
+  height: 650px;
+}
+h2{
+  font-size: 2.5rem;
+}
+p{
+  font-size: 2rem;
+  display:inline-flex;
+  gap: .3rem;
+}
+b{
+  color: #e8630a;
+}
+.icon{
+  font-size: 2rem;
+}
+.icon a {
+  color: white;
+}
+/*Navbar*/
+.Navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center ;
+  width: 100%;
+  
+}
+.logo{
+  width: 50%;
+}
+.logo a{
+  text-decoration: none;
+  color: #e8630a;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  gap: 3rem;
+  
+}
+li{
+  list-style-type: none;
+  font-size:1.3rem;
+}
+.navlinks a{
+  text-decoration: none;
+  color:white;
+}
+/*About*/
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  gap: 2rem;
+}
+.about{
+  padding-left: 2rem;
+  text-align: justify;
+  margin: 2rem;
+}
+.container h2{
+  color: white;
+}
+.about p{
+  width: 80%;
+  display: inline-block;
+  line-height: 3rem;
+}
+.about span{
+  color:white;
+}
+.pic{
+  align-items: center;
+}
+.aboutpic{
+  width: 500px;
+  height: 500px;
+}
+.skillhead{
+  text-align: center;
+  margin-top: 6rem;
+  color: white;
+}
+.skill{
+  margin: 2rem;
+}
+.skills ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.skills li{
+  margin: 2rem ;
+  padding: 3rem;
+  border: solid black 1px;
+  align-items: center;
+  font-size: 5rem;
+  border-radius: 20%;
+}
+.skills li:hover{
+  color: white;
+  border-radius: 50%;
+
+  
+}
+/* Project */
+
+.projectHeading{
+  text-align: center;
+  padding: 7px 0;
+  letter-spacing: 0.4px;
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.project{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px 5%;
+}
+
+.projectBox{
+  width: 350px;
+  border: 3px solid #431f47;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  line-height: 22px;
+  
+  margin: 0px 25px 50px 25px;
+  transition: 0.5s;
+}
+.projectBox:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px 0 #431f47;
+}
+
+.projectPhoto{
+  display: block;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.projectbtn{
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 25px 3% 0;
+  border-radius: 5px;
+  background-color: #431f47;
+  color: #E7E7E7;
+  height: 30px;
+  cursor:pointer;
+  text-decoration: none;
+  border-style: none;
+}
+.ResumePage{
+  padding-top: 50px;
+  width: fit-content;
+  position: relative;
+  margin: 100px auto 0px;
+  text-align: center;
+}
+
+.resumeview{
+  pointer-events: none;
+}
+
+.downloadCV{
+  cursor:pointer;
+  margin: 25px 0px;
+  width: 200px;
+  height: 40px;
+  background-color:#431f47;
+  color: #E7E7E7;
+  text-decoration: none;
+  border-radius: 5px;
+  border-style: none; 
+  transition: all 0.5s;
+}
+
+.downloadCV:hover{
+  transition: all 0.5s;
+  background-color: #E7E7E7;
+  color: #431f47;
+}
